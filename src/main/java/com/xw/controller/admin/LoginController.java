@@ -23,11 +23,7 @@ public class LoginController {
     private UserService userService;
 
     /**
-     * @Description: 跳转登录页面
-     * @Auther: ONESTAR
-     * @Date: 9:57 2020/3/27
-     * @Param:
-     * @Return: 返回登录页面
+     *  跳转登录页面
      */
     @GetMapping
     public String loginPage(){
