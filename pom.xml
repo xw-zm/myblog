@@ -8,7 +8,7 @@
         <version>2.2.5.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.star</groupId>
+    <groupId>com.xw</groupId>
     <artifactId>myblog</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>myblog</name>
@@ -90,7 +90,6 @@
         </dependency>
 
     </dependencies>
-
 <!--    <build>-->
 <!--        <plugins>-->
 <!--            <plugin>-->
