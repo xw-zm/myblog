@@ -8,6 +8,6 @@ public class MyblogApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(MyblogApplication.class, args);
-        System.out.println("博客启动成功");
+        System.out.println("启动成功");
     }
 }

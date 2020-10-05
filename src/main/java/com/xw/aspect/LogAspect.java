@@ -20,7 +20,7 @@ public class LogAspect {
     private final Logger logger = LoggerFactory.getLogger(this.getClass());
 
 //    拦截控制器
-    @Pointcut("execution(* com.star.controller.*.*(..))")
+    @Pointcut("execution(* com.xw.controller.*.*(..))")
     public void log() {}
 
 
