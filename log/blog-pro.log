@@ -37,3 +37,13 @@
 2020-10-05 10:11:10.687  INFO 14156 --- [http-nio-8080-exec-9] com.xw.aspect.LogAspect                  : Result : about
 2020-10-05 10:11:10.759  INFO 14156 --- [http-nio-8080-exec-10] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.IndexController.blogMessage', args=[{}]}
 2020-10-05 10:11:10.766  INFO 14156 --- [http-nio-8080-exec-10] com.xw.aspect.LogAspect                  : Result : index :: blogMessage
+2020-10-06 11:53:35.629  INFO 1276 --- [main] com.xw.MyblogApplicationTests            : Starting MyblogApplicationTests on zys with PID 1276 (started by Administrator in C:\Users\ideaiU\work\myblog)
+2020-10-06 11:53:35.631  INFO 1276 --- [main] com.xw.MyblogApplicationTests            : The following profiles are active: pro
+2020-10-06 11:53:40.582  INFO 1276 --- [main] com.xw.MyblogApplicationTests            : Started MyblogApplicationTests in 5.749 seconds (JVM running for 7.433)
+2020-10-06 11:54:16.127  INFO 10500 --- [main] com.xw.MyblogApplication                 : Starting MyblogApplication v0.0.1-SNAPSHOT on zys with PID 10500 (C:\Users\ideaiU\work\myblog\target\myblog-0.0.1-SNAPSHOT.jar started by Administrator in C:\Users\ideaiU\work\myblog)
+2020-10-06 11:54:16.170  INFO 10500 --- [main] com.xw.MyblogApplication                 : The following profiles are active: pro
+2020-10-06 11:54:21.272  INFO 10500 --- [main] com.xw.MyblogApplication                 : Started MyblogApplication in 5.88 seconds (JVM running for 6.511)
+2020-10-06 12:28:51.838  INFO 10500 --- [http-nio-8080-exec-4] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.IndexController.index', args=[{}, 1, {}]}
+2020-10-06 12:28:53.338  INFO 10500 --- [http-nio-8080-exec-4] com.xw.aspect.LogAspect                  : Result : index
+2020-10-06 12:28:54.001  INFO 10500 --- [http-nio-8080-exec-5] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.IndexController.blogMessage', args=[{}]}
+2020-10-06 12:28:54.012  INFO 10500 --- [http-nio-8080-exec-5] com.xw.aspect.LogAspect                  : Result : index :: blogMessage
