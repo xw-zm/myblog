@@ -1,49 +1,199 @@
-2020-10-05 10:09:24.620  INFO 14156 --- [restartedMain] com.xw.MyblogApplication                 : Starting MyblogApplication on zys with PID 14156 (C:\Users\ideaiU\work\myblog\target\classes started by Administrator in C:\Users\ideaiU\work\myblog)
-2020-10-05 10:09:24.626  INFO 14156 --- [restartedMain] com.xw.MyblogApplication                 : The following profiles are active: pro
-2020-10-05 10:09:27.986  INFO 14156 --- [restartedMain] com.xw.MyblogApplication                 : Started MyblogApplication in 4.173 seconds (JVM running for 5.911)
-2020-10-05 10:09:35.813  INFO 14156 --- [http-nio-8080-exec-2] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.IndexController.index', args=[{}, 1, {}]}
-2020-10-05 10:09:36.294  INFO 14156 --- [http-nio-8080-exec-2] com.xw.aspect.LogAspect                  : Result : index
-2020-10-05 10:09:36.660  INFO 14156 --- [http-nio-8080-exec-1] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.IndexController.index', args=[{}, 1, {}]}
-2020-10-05 10:09:36.668  INFO 14156 --- [http-nio-8080-exec-1] com.xw.aspect.LogAspect                  : Result : index
-2020-10-05 10:09:36.910  INFO 14156 --- [http-nio-8080-exec-1] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.IndexController.blogMessage', args=[{}]}
-2020-10-05 10:09:36.927  INFO 14156 --- [http-nio-8080-exec-1] com.xw.aspect.LogAspect                  : Result : index :: blogMessage
-2020-10-05 10:09:37.047  INFO 14156 --- [http-nio-8080-exec-8] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.IndexController.blogMessage', args=[{}]}
-2020-10-05 10:09:37.051  INFO 14156 --- [http-nio-8080-exec-8] com.xw.aspect.LogAspect                  : Result : index :: blogMessage
-2020-10-05 10:09:40.614  INFO 14156 --- [http-nio-8080-exec-7] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.TypeShowController.types', args=[1, -1, {}]}
-2020-10-05 10:09:40.627  INFO 14156 --- [http-nio-8080-exec-7] com.xw.aspect.LogAspect                  : Result : types
-2020-10-05 10:09:40.698  INFO 14156 --- [http-nio-8080-exec-9] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/types/1', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.TypeShowController.types', args=[1, 1, {}]}
-2020-10-05 10:09:40.706  INFO 14156 --- [http-nio-8080-exec-9] com.xw.aspect.LogAspect                  : Result : types
-2020-10-05 10:09:40.787  INFO 14156 --- [http-nio-8080-exec-1] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.IndexController.blogMessage', args=[{}]}
-2020-10-05 10:09:40.791  INFO 14156 --- [http-nio-8080-exec-1] com.xw.aspect.LogAspect                  : Result : index :: blogMessage
-2020-10-05 10:10:55.505  INFO 14156 --- [http-nio-8080-exec-10] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.ArchiveShowController.archive', args=[{}]}
-2020-10-05 10:10:55.530  INFO 14156 --- [http-nio-8080-exec-10] com.xw.aspect.LogAspect                  : Result : archives
-2020-10-05 10:10:55.618  INFO 14156 --- [http-nio-8080-exec-5] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.IndexController.blogMessage', args=[{}]}
-2020-10-05 10:10:55.621  INFO 14156 --- [http-nio-8080-exec-5] com.xw.aspect.LogAspect                  : Result : index :: blogMessage
-2020-10-05 10:10:59.851  INFO 14156 --- [http-nio-8080-exec-8] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.TypeShowController.types', args=[1, -1, {}]}
-2020-10-05 10:10:59.854  INFO 14156 --- [http-nio-8080-exec-8] com.xw.aspect.LogAspect                  : Result : types
-2020-10-05 10:10:59.926  INFO 14156 --- [http-nio-8080-exec-1] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/types/1', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.TypeShowController.types', args=[1, 1, {}]}
-2020-10-05 10:10:59.928  INFO 14156 --- [http-nio-8080-exec-1] com.xw.aspect.LogAspect                  : Result : types
-2020-10-05 10:10:59.987  INFO 14156 --- [http-nio-8080-exec-5] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.IndexController.blogMessage', args=[{}]}
-2020-10-05 10:10:59.993  INFO 14156 --- [http-nio-8080-exec-5] com.xw.aspect.LogAspect                  : Result : index :: blogMessage
-2020-10-05 10:11:04.245  INFO 14156 --- [http-nio-8080-exec-4] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/message', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.MessageController.message', args=[]}
-2020-10-05 10:11:04.249  INFO 14156 --- [http-nio-8080-exec-4] com.xw.aspect.LogAspect                  : Result : message
-2020-10-05 10:11:04.335  INFO 14156 --- [http-nio-8080-exec-9] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.IndexController.blogMessage', args=[{}]}
-2020-10-05 10:11:04.340  INFO 14156 --- [http-nio-8080-exec-9] com.xw.aspect.LogAspect                  : Result : index :: blogMessage
-2020-10-05 10:11:04.387  INFO 14156 --- [http-nio-8080-exec-1] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/messagecomment', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.MessageController.messages', args=[{}]}
-2020-10-05 10:11:04.392  INFO 14156 --- [http-nio-8080-exec-1] com.xw.aspect.LogAspect                  : Result : message::messageList
-2020-10-05 10:11:07.296  INFO 14156 --- [http-nio-8080-exec-6] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/music', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.MusicShowController.about', args=[]}
-2020-10-05 10:11:07.303  INFO 14156 --- [http-nio-8080-exec-6] com.xw.aspect.LogAspect                  : Result : music
-2020-10-05 10:11:10.682  INFO 14156 --- [http-nio-8080-exec-9] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/about', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.AboutShowController.about', args=[]}
-2020-10-05 10:11:10.687  INFO 14156 --- [http-nio-8080-exec-9] com.xw.aspect.LogAspect                  : Result : about
-2020-10-05 10:11:10.759  INFO 14156 --- [http-nio-8080-exec-10] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.IndexController.blogMessage', args=[{}]}
-2020-10-05 10:11:10.766  INFO 14156 --- [http-nio-8080-exec-10] com.xw.aspect.LogAspect                  : Result : index :: blogMessage
-2020-10-06 11:53:35.629  INFO 1276 --- [main] com.xw.MyblogApplicationTests            : Starting MyblogApplicationTests on zys with PID 1276 (started by Administrator in C:\Users\ideaiU\work\myblog)
-2020-10-06 11:53:35.631  INFO 1276 --- [main] com.xw.MyblogApplicationTests            : The following profiles are active: pro
-2020-10-06 11:53:40.582  INFO 1276 --- [main] com.xw.MyblogApplicationTests            : Started MyblogApplicationTests in 5.749 seconds (JVM running for 7.433)
-2020-10-06 11:54:16.127  INFO 10500 --- [main] com.xw.MyblogApplication                 : Starting MyblogApplication v0.0.1-SNAPSHOT on zys with PID 10500 (C:\Users\ideaiU\work\myblog\target\myblog-0.0.1-SNAPSHOT.jar started by Administrator in C:\Users\ideaiU\work\myblog)
-2020-10-06 11:54:16.170  INFO 10500 --- [main] com.xw.MyblogApplication                 : The following profiles are active: pro
-2020-10-06 11:54:21.272  INFO 10500 --- [main] com.xw.MyblogApplication                 : Started MyblogApplication in 5.88 seconds (JVM running for 6.511)
-2020-10-06 12:28:51.838  INFO 10500 --- [http-nio-8080-exec-4] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.IndexController.index', args=[{}, 1, {}]}
-2020-10-06 12:28:53.338  INFO 10500 --- [http-nio-8080-exec-4] com.xw.aspect.LogAspect                  : Result : index
-2020-10-06 12:28:54.001  INFO 10500 --- [http-nio-8080-exec-5] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.IndexController.blogMessage', args=[{}]}
-2020-10-06 12:28:54.012  INFO 10500 --- [http-nio-8080-exec-5] com.xw.aspect.LogAspect                  : Result : index :: blogMessage
+2020-10-17 21:31:13.701  INFO 5128 --- [restartedMain] com.xw.MyblogApplication                 : Starting MyblogApplication on zys with PID 5128 (C:\Users\ideaiU\work\myblog\target\classes started by Administrator in C:\Users\ideaiU\work\myblog)
+2020-10-17 21:31:13.708  INFO 5128 --- [restartedMain] com.xw.MyblogApplication                 : The following profiles are active: pro
+2020-10-17 21:31:17.155  INFO 5128 --- [restartedMain] com.xw.MyblogApplication                 : Started MyblogApplication in 4.725 seconds (JVM running for 6.461)
+2020-10-17 21:31:39.630  INFO 5128 --- [http-nio-8080-exec-4] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.IndexController.blogMessage', args=[{}]}
+2020-10-17 21:31:39.667  INFO 5128 --- [http-nio-8080-exec-4] com.xw.aspect.LogAspect                  : Result : index :: blogMessage
+2020-10-17 21:31:41.888  INFO 5128 --- [http-nio-8080-exec-2] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.IndexController.blogMessage', args=[{}]}
+2020-10-17 21:31:41.892  INFO 5128 --- [http-nio-8080-exec-2] com.xw.aspect.LogAspect                  : Result : index :: blogMessage
+2020-10-17 21:31:43.510  INFO 5128 --- [http-nio-8080-exec-8] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.IndexController.blogMessage', args=[{}]}
+2020-10-17 21:31:43.514  INFO 5128 --- [http-nio-8080-exec-8] com.xw.aspect.LogAspect                  : Result : index :: blogMessage
+2020-10-17 21:31:45.252  INFO 5128 --- [http-nio-8080-exec-4] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.IndexController.blogMessage', args=[{}]}
+2020-10-17 21:31:45.259  INFO 5128 --- [http-nio-8080-exec-4] com.xw.aspect.LogAspect                  : Result : index :: blogMessage
+2020-10-17 21:31:52.516  INFO 5128 --- [http-nio-8080-exec-5] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.IndexController.index', args=[{}, 1, {}]}
+2020-10-17 21:31:52.534  INFO 5128 --- [http-nio-8080-exec-5] com.xw.aspect.LogAspect                  : Result : index
+2020-10-17 21:31:52.743  INFO 5128 --- [http-nio-8080-exec-1] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.IndexController.blogMessage', args=[{}]}
+2020-10-17 21:31:52.753  INFO 5128 --- [http-nio-8080-exec-1] com.xw.aspect.LogAspect                  : Result : index :: blogMessage
+2020-10-17 21:32:22.323  INFO 5128 --- [http-nio-8080-exec-5] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.IndexController.index', args=[{}, 1, {}]}
+2020-10-17 21:32:22.333  INFO 5128 --- [http-nio-8080-exec-5] com.xw.aspect.LogAspect                  : Result : index
+2020-10-17 21:32:22.661  INFO 5128 --- [http-nio-8080-exec-3] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.IndexController.blogMessage', args=[{}]}
+2020-10-17 21:32:22.664  INFO 5128 --- [http-nio-8080-exec-3] com.xw.aspect.LogAspect                  : Result : index :: blogMessage
+2020-10-17 21:32:25.588  INFO 5128 --- [http-nio-8080-exec-7] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.TypeShowController.types', args=[1, -1, {}]}
+2020-10-17 21:32:25.608  INFO 5128 --- [http-nio-8080-exec-7] com.xw.aspect.LogAspect                  : Result : types
+2020-10-17 21:32:25.672  INFO 5128 --- [http-nio-8080-exec-1] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/types/1', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.TypeShowController.types', args=[1, 1, {}]}
+2020-10-17 21:32:25.674  INFO 5128 --- [http-nio-8080-exec-1] com.xw.aspect.LogAspect                  : Result : types
+2020-10-17 21:32:25.755  INFO 5128 --- [http-nio-8080-exec-5] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.IndexController.blogMessage', args=[{}]}
+2020-10-17 21:32:25.758  INFO 5128 --- [http-nio-8080-exec-5] com.xw.aspect.LogAspect                  : Result : index :: blogMessage
+2020-10-17 21:32:29.616  INFO 5128 --- [http-nio-8080-exec-3] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.ArchiveShowController.archive', args=[{}]}
+2020-10-17 21:32:29.620  INFO 5128 --- [http-nio-8080-exec-3] com.xw.aspect.LogAspect                  : Result : archives
+2020-10-17 21:32:29.735  INFO 5128 --- [http-nio-8080-exec-4] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.IndexController.blogMessage', args=[{}]}
+2020-10-17 21:32:29.739  INFO 5128 --- [http-nio-8080-exec-4] com.xw.aspect.LogAspect                  : Result : index :: blogMessage
+2020-10-17 21:32:31.070  INFO 5128 --- [http-nio-8080-exec-8] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/music', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.MusicShowController.about', args=[]}
+2020-10-17 21:32:31.072  INFO 5128 --- [http-nio-8080-exec-8] com.xw.aspect.LogAspect                  : Result : music
+2020-10-17 21:32:32.901  INFO 5128 --- [http-nio-8080-exec-6] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/message', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.MessageController.message', args=[]}
+2020-10-17 21:32:32.905  INFO 5128 --- [http-nio-8080-exec-6] com.xw.aspect.LogAspect                  : Result : message
+2020-10-17 21:32:32.980  INFO 5128 --- [http-nio-8080-exec-2] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.IndexController.blogMessage', args=[{}]}
+2020-10-17 21:32:32.983  INFO 5128 --- [http-nio-8080-exec-2] com.xw.aspect.LogAspect                  : Result : index :: blogMessage
+2020-10-17 21:32:33.037  INFO 5128 --- [http-nio-8080-exec-3] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/messagecomment', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.MessageController.messages', args=[{}]}
+2020-10-17 21:32:33.045  INFO 5128 --- [http-nio-8080-exec-3] com.xw.aspect.LogAspect                  : Result : message::messageList
+2020-10-17 21:32:37.458  INFO 5128 --- [http-nio-8080-exec-7] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/about', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.AboutShowController.about', args=[]}
+2020-10-17 21:32:37.461  INFO 5128 --- [http-nio-8080-exec-7] com.xw.aspect.LogAspect                  : Result : about
+2020-10-17 21:32:37.560  INFO 5128 --- [http-nio-8080-exec-3] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.IndexController.blogMessage', args=[{}]}
+2020-10-17 21:32:37.564  INFO 5128 --- [http-nio-8080-exec-3] com.xw.aspect.LogAspect                  : Result : index :: blogMessage
+2020-10-17 21:32:39.389  INFO 5128 --- [http-nio-8080-exec-10] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/music', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.MusicShowController.about', args=[]}
+2020-10-17 21:32:39.390  INFO 5128 --- [http-nio-8080-exec-10] com.xw.aspect.LogAspect                  : Result : music
+2020-10-17 21:32:48.343  INFO 5128 --- [http-nio-8080-exec-8] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.IndexController.index', args=[{}, 1, {}]}
+2020-10-17 21:32:48.352  INFO 5128 --- [http-nio-8080-exec-8] com.xw.aspect.LogAspect                  : Result : index
+2020-10-17 21:32:48.614  INFO 5128 --- [http-nio-8080-exec-5] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.IndexController.blogMessage', args=[{}]}
+2020-10-17 21:32:48.617  INFO 5128 --- [http-nio-8080-exec-5] com.xw.aspect.LogAspect                  : Result : index :: blogMessage
+2020-10-17 21:33:57.490  INFO 10916 --- [restartedMain] com.xw.MyblogApplication                 : Starting MyblogApplication on zys with PID 10916 (C:\Users\ideaiU\work\myblog\target\classes started by Administrator in C:\Users\ideaiU\work\myblog)
+2020-10-17 21:33:57.502  INFO 10916 --- [restartedMain] com.xw.MyblogApplication                 : The following profiles are active: pro
+2020-10-17 21:34:00.651  INFO 10916 --- [restartedMain] com.xw.MyblogApplication                 : Started MyblogApplication in 3.93 seconds (JVM running for 5.04)
+2020-10-17 21:34:06.297  INFO 10916 --- [http-nio-8080-exec-1] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.IndexController.index', args=[{}, 1, {}]}
+2020-10-17 21:34:06.556  INFO 10916 --- [http-nio-8080-exec-1] com.xw.aspect.LogAspect                  : Result : index
+2020-10-17 21:34:07.012  INFO 10916 --- [http-nio-8080-exec-2] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.IndexController.blogMessage', args=[{}]}
+2020-10-17 21:34:07.021  INFO 10916 --- [http-nio-8080-exec-2] com.xw.aspect.LogAspect                  : Result : index :: blogMessage
+2020-10-17 21:34:12.229  INFO 10916 --- [http-nio-8080-exec-6] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/music', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.MusicShowController.about', args=[]}
+2020-10-17 21:34:12.235  INFO 10916 --- [http-nio-8080-exec-6] com.xw.aspect.LogAspect                  : Result : music
+2020-10-17 21:34:43.848  INFO 10916 --- [http-nio-8080-exec-4] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.IndexController.index', args=[{}, 1, {}]}
+2020-10-17 21:34:43.858  INFO 10916 --- [http-nio-8080-exec-4] com.xw.aspect.LogAspect                  : Result : index
+2020-10-17 21:34:44.106  INFO 10916 --- [http-nio-8080-exec-5] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.IndexController.blogMessage', args=[{}]}
+2020-10-17 21:34:44.109  INFO 10916 --- [http-nio-8080-exec-5] com.xw.aspect.LogAspect                  : Result : index :: blogMessage
+2020-10-17 21:40:16.761  INFO 14172 --- [restartedMain] com.xw.MyblogApplication                 : Starting MyblogApplication on zys with PID 14172 (C:\Users\ideaiU\work\myblog\target\classes started by Administrator in C:\Users\ideaiU\work\myblog)
+2020-10-17 21:40:16.764  INFO 14172 --- [restartedMain] com.xw.MyblogApplication                 : The following profiles are active: pro
+2020-10-17 21:40:19.845  INFO 14172 --- [restartedMain] com.xw.MyblogApplication                 : Started MyblogApplication in 4.234 seconds (JVM running for 5.396)
+2020-10-17 21:40:22.499  INFO 14172 --- [http-nio-8080-exec-1] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.IndexController.index', args=[{}, 1, {}]}
+2020-10-17 21:40:22.756  INFO 14172 --- [http-nio-8080-exec-1] com.xw.aspect.LogAspect                  : Result : index
+2020-10-17 21:40:23.244  INFO 14172 --- [http-nio-8080-exec-9] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.IndexController.blogMessage', args=[{}]}
+2020-10-17 21:40:23.251  INFO 14172 --- [http-nio-8080-exec-9] com.xw.aspect.LogAspect                  : Result : index :: blogMessage
+2020-10-17 21:43:11.998  INFO 14172 --- [http-nio-8080-exec-6] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.IndexController.index', args=[{}, 1, {}]}
+2020-10-17 21:43:12.019  INFO 14172 --- [http-nio-8080-exec-6] com.xw.aspect.LogAspect                  : Result : index
+2020-10-17 21:43:12.329  INFO 14172 --- [http-nio-8080-exec-9] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.IndexController.blogMessage', args=[{}]}
+2020-10-17 21:43:12.335  INFO 14172 --- [http-nio-8080-exec-9] com.xw.aspect.LogAspect                  : Result : index :: blogMessage
+2020-10-17 21:43:30.988  INFO 14172 --- [http-nio-8080-exec-7] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.TypeShowController.types', args=[1, -1, {}]}
+2020-10-17 21:43:30.999  INFO 14172 --- [http-nio-8080-exec-7] com.xw.aspect.LogAspect                  : Result : types
+2020-10-17 21:43:31.066  INFO 14172 --- [http-nio-8080-exec-8] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/types/1', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.TypeShowController.types', args=[1, 1, {}]}
+2020-10-17 21:43:31.070  INFO 14172 --- [http-nio-8080-exec-8] com.xw.aspect.LogAspect                  : Result : types
+2020-10-17 21:43:31.136  INFO 14172 --- [http-nio-8080-exec-2] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.IndexController.blogMessage', args=[{}]}
+2020-10-17 21:43:31.144  INFO 14172 --- [http-nio-8080-exec-2] com.xw.aspect.LogAspect                  : Result : index :: blogMessage
+2020-10-17 21:43:35.101  INFO 14172 --- [http-nio-8080-exec-9] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.ArchiveShowController.archive', args=[{}]}
+2020-10-17 21:43:35.112  INFO 14172 --- [http-nio-8080-exec-9] com.xw.aspect.LogAspect                  : Result : archives
+2020-10-17 21:43:35.215  INFO 14172 --- [http-nio-8080-exec-6] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.IndexController.blogMessage', args=[{}]}
+2020-10-17 21:43:35.225  INFO 14172 --- [http-nio-8080-exec-6] com.xw.aspect.LogAspect                  : Result : index :: blogMessage
+2020-10-17 21:43:36.659  INFO 14172 --- [http-nio-8080-exec-2] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/music', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.MusicShowController.about', args=[]}
+2020-10-17 21:43:36.662  INFO 14172 --- [http-nio-8080-exec-2] com.xw.aspect.LogAspect                  : Result : music
+2020-10-17 21:43:39.904  INFO 14172 --- [http-nio-8080-exec-3] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/message', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.MessageController.message', args=[]}
+2020-10-17 21:43:39.912  INFO 14172 --- [http-nio-8080-exec-3] com.xw.aspect.LogAspect                  : Result : message
+2020-10-17 21:43:40.010  INFO 14172 --- [http-nio-8080-exec-4] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.IndexController.blogMessage', args=[{}]}
+2020-10-17 21:43:40.013  INFO 14172 --- [http-nio-8080-exec-4] com.xw.aspect.LogAspect                  : Result : index :: blogMessage
+2020-10-17 21:43:40.039  INFO 14172 --- [http-nio-8080-exec-1] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/messagecomment', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.MessageController.messages', args=[{}]}
+2020-10-17 21:43:40.043  INFO 14172 --- [http-nio-8080-exec-1] com.xw.aspect.LogAspect                  : Result : message::messageList
+2020-10-17 21:43:41.242  INFO 14172 --- [http-nio-8080-exec-9] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/about', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.AboutShowController.about', args=[]}
+2020-10-17 21:43:41.249  INFO 14172 --- [http-nio-8080-exec-9] com.xw.aspect.LogAspect                  : Result : about
+2020-10-17 21:43:41.347  INFO 14172 --- [http-nio-8080-exec-9] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.IndexController.blogMessage', args=[{}]}
+2020-10-17 21:43:41.352  INFO 14172 --- [http-nio-8080-exec-9] com.xw.aspect.LogAspect                  : Result : index :: blogMessage
+2020-10-17 21:49:13.114  INFO 13888 --- [restartedMain] com.xw.MyblogApplication                 : Starting MyblogApplication on zys with PID 13888 (C:\Users\ideaiU\work\myblog\target\classes started by Administrator in C:\Users\ideaiU\work\myblog)
+2020-10-17 21:49:13.118  INFO 13888 --- [restartedMain] com.xw.MyblogApplication                 : The following profiles are active: pro
+2020-10-17 21:49:16.312  INFO 13888 --- [restartedMain] com.xw.MyblogApplication                 : Started MyblogApplication in 3.827 seconds (JVM running for 4.859)
+2020-10-17 21:49:25.771  INFO 13888 --- [http-nio-8080-exec-3] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.IndexController.index', args=[{}, 1, {}]}
+2020-10-17 21:49:26.022  INFO 13888 --- [http-nio-8080-exec-3] com.xw.aspect.LogAspect                  : Result : index
+2020-10-17 21:49:26.555  INFO 13888 --- [http-nio-8080-exec-4] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.IndexController.blogMessage', args=[{}]}
+2020-10-17 21:49:26.562  INFO 13888 --- [http-nio-8080-exec-4] com.xw.aspect.LogAspect                  : Result : index :: blogMessage
+2020-10-17 21:49:30.836  INFO 13888 --- [http-nio-8080-exec-7] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.TypeShowController.types', args=[1, -1, {}]}
+2020-10-17 21:49:30.848  INFO 13888 --- [http-nio-8080-exec-7] com.xw.aspect.LogAspect                  : Result : types
+2020-10-17 21:49:30.918  INFO 13888 --- [http-nio-8080-exec-1] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/types/1', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.TypeShowController.types', args=[1, 1, {}]}
+2020-10-17 21:49:30.921  INFO 13888 --- [http-nio-8080-exec-1] com.xw.aspect.LogAspect                  : Result : types
+2020-10-17 21:49:30.993  INFO 13888 --- [http-nio-8080-exec-8] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.IndexController.blogMessage', args=[{}]}
+2020-10-17 21:49:30.998  INFO 13888 --- [http-nio-8080-exec-8] com.xw.aspect.LogAspect                  : Result : index :: blogMessage
+2020-10-17 21:49:34.346  INFO 13888 --- [http-nio-8080-exec-4] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/music', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.MusicShowController.about', args=[]}
+2020-10-17 21:49:34.351  INFO 13888 --- [http-nio-8080-exec-4] com.xw.aspect.LogAspect                  : Result : music
+2020-10-17 21:49:35.903  INFO 13888 --- [http-nio-8080-exec-1] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/message', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.MessageController.message', args=[]}
+2020-10-17 21:49:35.907  INFO 13888 --- [http-nio-8080-exec-1] com.xw.aspect.LogAspect                  : Result : message
+2020-10-17 21:49:36.036  INFO 13888 --- [http-nio-8080-exec-1] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.IndexController.blogMessage', args=[{}]}
+2020-10-17 21:49:36.053  INFO 13888 --- [http-nio-8080-exec-1] com.xw.aspect.LogAspect                  : Result : index :: blogMessage
+2020-10-17 21:49:36.071  INFO 13888 --- [http-nio-8080-exec-4] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/messagecomment', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.MessageController.messages', args=[{}]}
+2020-10-17 21:49:36.079  INFO 13888 --- [http-nio-8080-exec-4] com.xw.aspect.LogAspect                  : Result : message::messageList
+2020-10-17 21:49:38.512  INFO 13888 --- [http-nio-8080-exec-7] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/message', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.MessageController.message', args=[]}
+2020-10-17 21:49:38.512  INFO 13888 --- [http-nio-8080-exec-7] com.xw.aspect.LogAspect                  : Result : message
+2020-10-17 21:49:38.593  INFO 13888 --- [http-nio-8080-exec-3] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.IndexController.blogMessage', args=[{}]}
+2020-10-17 21:49:38.599  INFO 13888 --- [http-nio-8080-exec-3] com.xw.aspect.LogAspect                  : Result : index :: blogMessage
+2020-10-17 21:49:38.625  INFO 13888 --- [http-nio-8080-exec-8] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/messagecomment', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.MessageController.messages', args=[{}]}
+2020-10-17 21:49:38.629  INFO 13888 --- [http-nio-8080-exec-8] com.xw.aspect.LogAspect                  : Result : message::messageList
+2020-10-17 21:49:39.553  INFO 13888 --- [http-nio-8080-exec-1] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/about', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.AboutShowController.about', args=[]}
+2020-10-17 21:49:39.559  INFO 13888 --- [http-nio-8080-exec-1] com.xw.aspect.LogAspect                  : Result : about
+2020-10-17 21:49:39.647  INFO 13888 --- [http-nio-8080-exec-8] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.IndexController.blogMessage', args=[{}]}
+2020-10-17 21:49:39.651  INFO 13888 --- [http-nio-8080-exec-8] com.xw.aspect.LogAspect                  : Result : index :: blogMessage
+2020-10-17 21:50:13.155  INFO 13352 --- [restartedMain] com.xw.MyblogApplication                 : Starting MyblogApplication on zys with PID 13352 (C:\Users\ideaiU\work\myblog\target\classes started by Administrator in C:\Users\ideaiU\work\myblog)
+2020-10-17 21:50:13.159  INFO 13352 --- [restartedMain] com.xw.MyblogApplication                 : The following profiles are active: pro
+2020-10-17 21:50:16.676  INFO 13352 --- [restartedMain] com.xw.MyblogApplication                 : Started MyblogApplication in 4.336 seconds (JVM running for 5.421)
+2020-10-17 21:50:25.528  INFO 13352 --- [http-nio-8080-exec-1] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/about', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.AboutShowController.about', args=[]}
+2020-10-17 21:50:25.535  INFO 13352 --- [http-nio-8080-exec-1] com.xw.aspect.LogAspect                  : Result : about
+2020-10-17 21:50:25.972  INFO 13352 --- [http-nio-8080-exec-10] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.IndexController.blogMessage', args=[{}]}
+2020-10-17 21:50:26.324  INFO 13352 --- [http-nio-8080-exec-10] com.xw.aspect.LogAspect                  : Result : index :: blogMessage
+2020-10-17 21:50:28.699  INFO 13352 --- [http-nio-8080-exec-1] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.IndexController.index', args=[{}, 1, {}]}
+2020-10-17 21:50:28.743  INFO 13352 --- [http-nio-8080-exec-1] com.xw.aspect.LogAspect                  : Result : index
+2020-10-17 21:50:28.938  INFO 13352 --- [http-nio-8080-exec-6] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.IndexController.blogMessage', args=[{}]}
+2020-10-17 21:50:28.947  INFO 13352 --- [http-nio-8080-exec-6] com.xw.aspect.LogAspect                  : Result : index :: blogMessage
+2020-10-17 21:50:32.533  INFO 13352 --- [http-nio-8080-exec-4] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.TypeShowController.types', args=[1, -1, {}]}
+2020-10-17 21:50:32.546  INFO 13352 --- [http-nio-8080-exec-4] com.xw.aspect.LogAspect                  : Result : types
+2020-10-17 21:50:32.610  INFO 13352 --- [http-nio-8080-exec-7] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/types/1', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.TypeShowController.types', args=[1, 1, {}]}
+2020-10-17 21:50:32.614  INFO 13352 --- [http-nio-8080-exec-7] com.xw.aspect.LogAspect                  : Result : types
+2020-10-17 21:50:32.660  INFO 13352 --- [http-nio-8080-exec-10] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.IndexController.blogMessage', args=[{}]}
+2020-10-17 21:50:32.668  INFO 13352 --- [http-nio-8080-exec-10] com.xw.aspect.LogAspect                  : Result : index :: blogMessage
+2020-10-17 21:50:34.219  INFO 13352 --- [http-nio-8080-exec-6] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.ArchiveShowController.archive', args=[{}]}
+2020-10-17 21:50:34.228  INFO 13352 --- [http-nio-8080-exec-6] com.xw.aspect.LogAspect                  : Result : archives
+2020-10-17 21:50:34.317  INFO 13352 --- [http-nio-8080-exec-7] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.IndexController.blogMessage', args=[{}]}
+2020-10-17 21:50:34.321  INFO 13352 --- [http-nio-8080-exec-7] com.xw.aspect.LogAspect                  : Result : index :: blogMessage
+2020-10-17 21:50:35.434  INFO 13352 --- [http-nio-8080-exec-10] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/music', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.MusicShowController.about', args=[]}
+2020-10-17 21:50:35.439  INFO 13352 --- [http-nio-8080-exec-10] com.xw.aspect.LogAspect                  : Result : music
+2020-10-17 21:50:36.835  INFO 13352 --- [http-nio-8080-exec-6] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/message', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.MessageController.message', args=[]}
+2020-10-17 21:50:36.846  INFO 13352 --- [http-nio-8080-exec-6] com.xw.aspect.LogAspect                  : Result : message
+2020-10-17 21:50:36.904  INFO 13352 --- [http-nio-8080-exec-7] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.IndexController.blogMessage', args=[{}]}
+2020-10-17 21:50:36.907  INFO 13352 --- [http-nio-8080-exec-7] com.xw.aspect.LogAspect                  : Result : index :: blogMessage
+2020-10-17 21:50:36.943  INFO 13352 --- [http-nio-8080-exec-10] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/messagecomment', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.MessageController.messages', args=[{}]}
+2020-10-17 21:50:36.947  INFO 13352 --- [http-nio-8080-exec-10] com.xw.aspect.LogAspect                  : Result : message::messageList
+2020-10-17 21:50:37.877  INFO 13352 --- [http-nio-8080-exec-5] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/about', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.AboutShowController.about', args=[]}
+2020-10-17 21:50:37.877  INFO 13352 --- [http-nio-8080-exec-5] com.xw.aspect.LogAspect                  : Result : about
+2020-10-17 21:50:38.007  INFO 13352 --- [http-nio-8080-exec-8] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.IndexController.blogMessage', args=[{}]}
+2020-10-17 21:50:38.010  INFO 13352 --- [http-nio-8080-exec-8] com.xw.aspect.LogAspect                  : Result : index :: blogMessage
+2020-10-17 21:50:39.241  INFO 13352 --- [http-nio-8080-exec-6] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/message', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.MessageController.message', args=[]}
+2020-10-17 21:50:39.243  INFO 13352 --- [http-nio-8080-exec-6] com.xw.aspect.LogAspect                  : Result : message
+2020-10-17 21:50:39.311  INFO 13352 --- [http-nio-8080-exec-3] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.IndexController.blogMessage', args=[{}]}
+2020-10-17 21:50:39.314  INFO 13352 --- [http-nio-8080-exec-3] com.xw.aspect.LogAspect                  : Result : index :: blogMessage
+2020-10-17 21:50:39.342  INFO 13352 --- [http-nio-8080-exec-10] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/messagecomment', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.MessageController.messages', args=[{}]}
+2020-10-17 21:50:39.344  INFO 13352 --- [http-nio-8080-exec-10] com.xw.aspect.LogAspect                  : Result : message::messageList
+2020-10-17 21:50:40.138  INFO 13352 --- [http-nio-8080-exec-5] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/about', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.AboutShowController.about', args=[]}
+2020-10-17 21:50:40.140  INFO 13352 --- [http-nio-8080-exec-5] com.xw.aspect.LogAspect                  : Result : about
+2020-10-17 21:50:40.229  INFO 13352 --- [http-nio-8080-exec-5] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.IndexController.blogMessage', args=[{}]}
+2020-10-17 21:50:40.232  INFO 13352 --- [http-nio-8080-exec-5] com.xw.aspect.LogAspect                  : Result : index :: blogMessage
+2020-10-17 21:50:43.327  INFO 13352 --- [http-nio-8080-exec-6] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/message', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.MessageController.message', args=[]}
+2020-10-17 21:50:43.328  INFO 13352 --- [http-nio-8080-exec-6] com.xw.aspect.LogAspect                  : Result : message
+2020-10-17 21:50:43.405  INFO 13352 --- [http-nio-8080-exec-7] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.IndexController.blogMessage', args=[{}]}
+2020-10-17 21:50:43.408  INFO 13352 --- [http-nio-8080-exec-7] com.xw.aspect.LogAspect                  : Result : index :: blogMessage
+2020-10-17 21:50:43.442  INFO 13352 --- [http-nio-8080-exec-10] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/messagecomment', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.MessageController.messages', args=[{}]}
+2020-10-17 21:50:43.447  INFO 13352 --- [http-nio-8080-exec-10] com.xw.aspect.LogAspect                  : Result : message::messageList
+2020-10-17 21:50:44.243  INFO 13352 --- [http-nio-8080-exec-5] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/music', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.MusicShowController.about', args=[]}
+2020-10-17 21:50:44.244  INFO 13352 --- [http-nio-8080-exec-5] com.xw.aspect.LogAspect                  : Result : music
+2020-10-17 21:50:45.893  INFO 13352 --- [http-nio-8080-exec-7] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/music', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.MusicShowController.about', args=[]}
+2020-10-17 21:50:45.895  INFO 13352 --- [http-nio-8080-exec-7] com.xw.aspect.LogAspect                  : Result : music
+2020-10-17 21:50:46.271  INFO 13352 --- [http-nio-8080-exec-7] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.ArchiveShowController.archive', args=[{}]}
+2020-10-17 21:50:46.276  INFO 13352 --- [http-nio-8080-exec-7] com.xw.aspect.LogAspect                  : Result : archives
+2020-10-17 21:50:46.386  INFO 13352 --- [http-nio-8080-exec-2] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.IndexController.blogMessage', args=[{}]}
+2020-10-17 21:50:46.392  INFO 13352 --- [http-nio-8080-exec-2] com.xw.aspect.LogAspect                  : Result : index :: blogMessage
+2020-10-17 21:50:47.732  INFO 13352 --- [http-nio-8080-exec-1] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.TypeShowController.types', args=[1, -1, {}]}
+2020-10-17 21:50:47.737  INFO 13352 --- [http-nio-8080-exec-1] com.xw.aspect.LogAspect                  : Result : types
+2020-10-17 21:50:47.799  INFO 13352 --- [http-nio-8080-exec-10] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/types/1', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.TypeShowController.types', args=[1, 1, {}]}
+2020-10-17 21:50:47.802  INFO 13352 --- [http-nio-8080-exec-10] com.xw.aspect.LogAspect                  : Result : types
+2020-10-17 21:50:47.864  INFO 13352 --- [http-nio-8080-exec-3] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.IndexController.blogMessage', args=[{}]}
+2020-10-17 21:50:47.867  INFO 13352 --- [http-nio-8080-exec-3] com.xw.aspect.LogAspect                  : Result : index :: blogMessage
+2020-10-17 21:50:48.661  INFO 13352 --- [http-nio-8080-exec-2] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.IndexController.index', args=[{}, 1, {}]}
+2020-10-17 21:50:48.668  INFO 13352 --- [http-nio-8080-exec-2] com.xw.aspect.LogAspect                  : Result : index
+2020-10-17 21:50:48.764  INFO 13352 --- [http-nio-8080-exec-1] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.IndexController.blogMessage', args=[{}]}
+2020-10-17 21:50:48.767  INFO 13352 --- [http-nio-8080-exec-1] com.xw.aspect.LogAspect                  : Result : index :: blogMessage
+2020-10-17 21:52:36.855  INFO 13352 --- [http-nio-8080-exec-2] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.IndexController.index', args=[{}, 1, {}]}
+2020-10-17 21:52:36.861  INFO 13352 --- [http-nio-8080-exec-2] com.xw.aspect.LogAspect                  : Result : index
+2020-10-17 21:52:38.034  INFO 13352 --- [http-nio-8080-exec-1] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.IndexController.blogMessage', args=[{}]}
+2020-10-17 21:52:38.043  INFO 13352 --- [http-nio-8080-exec-1] com.xw.aspect.LogAspect                  : Result : index :: blogMessage
+2020-10-17 21:52:46.457  INFO 13352 --- [http-nio-8080-exec-6] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/about', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.AboutShowController.about', args=[]}
+2020-10-17 21:52:46.458  INFO 13352 --- [http-nio-8080-exec-6] com.xw.aspect.LogAspect                  : Result : about
+2020-10-17 21:52:46.535  INFO 13352 --- [http-nio-8080-exec-6] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.IndexController.blogMessage', args=[{}]}
+2020-10-17 21:52:46.540  INFO 13352 --- [http-nio-8080-exec-6] com.xw.aspect.LogAspect                  : Result : index :: blogMessage
