@@ -55,18 +55,13 @@
         <div class="m-font-size-title-mediul" align="center">(～￣▽￣)→))*￣▽￣*)o</div>
 
         <div class="" align="center">
-            <a href="#" class="ui tencent circular icon button"><i class="user icon"></i></a>
             <a href="#" class="ui wechat circular icon button"><i class="weixin icon"></i></a>
             <a href="#" class="ui qq circular icon button" data-content="316392836" data-position="bottom center"><i class="qq icon"></i></a>
-            <a href="https://github.com/oneStarLR/" target="_blank" class="ui github circular icon button" data-content="点击跳转GitHub" data-position="bottom center"><i class="github icon"></i></a>
-            <a href="https://onestar.blog.csdn.net/" target="_blank" class="ui csdn circular icon button" data-content="点击跳转CSDN" data-position="bottom center"><i class="copyright outline icon"></i></a>
-            <a href="#" class="ui email circular icon button" data-content="onestarlr@hotmail.com" data-position="bottom center"><i class="envelope  icon"></i></a>
+            <a href="https://github.com/xw-zm/myblog" target="_blank" class="ui github circular icon button" data-content="点击跳转GitHub" data-position="bottom center"><i class="github icon"></i></a>
+            <a href="https://blog.csdn.net/hellozys" target="_blank" class="ui csdn circular icon button" data-content="点击跳转CSDN" data-position="bottom center"><i class="copyright outline icon"></i></a>
+            <a href="#" class="ui email circular icon button" data-content="1796626667@qq.com" data-position="bottom center"><i class="envelope  icon"></i></a>
         </div>
 
-        <div class="ui tencent-qr flowing popup transition hidden">
-            <img src="../static/images/oneStar.jpg" th:src="@{/images/oneStar.jpg}" alt="" class="ui rounded image" style="width: 110px">
-            <div align="center">公众号</div>
-        </div>
         <div class="ui wechat-qr flowing popup transition hidden">
             <img src="../static/images/oneStarWechat.jpg" th:src="@{/images/oneStarWechat.jpg}" alt="" class="ui rounded image" style="width: 110px">
             <div align="center">微信</div>
@@ -76,12 +71,12 @@
             <div align="center">QQ</div>
         </div>
 
-        <div class="m-font-size-text" align="center">欢迎来到我们的博客，希望在IT的路上,我们互相扶持</div>
+        <div class="m-font-size-text" align="center">欢迎来到我们的博客</div>
         <hr style="width: 40%">
-        <h5 class="m-font-size-text-init-title m-margin-top-large">“大圣，此去欲何?”</h5>
-        <h5 class="m-font-size-text-init-title">“踏南天，碎凌霄”</h5>
-        <h5 class="m-font-size-text-init-title">“若一去不回……”</h5>
-        <h5 class="m-font-size-text-init-title">“便一去不回”</h5>
+        <h5 class="m-font-size-text-init-title m-margin-top-large">冲破岁月的蕃篱</h5>
+        <h5 class="m-font-size-text-init-title">砸碎旧时的月光</h5>
+        <h5 class="m-font-size-text-init-title">阴霾渐渐散去</h5>
+        <h5 class="m-font-size-text-init-title">未来可期</h5>
         <div id="waypoint" class="ui m-margin-top-large" align="center">
             <a href="#" th:href="@{/}" class="ui circular icon button m-opacity-small m-item item m-mobile-hide m-index-btn" th:classappend="${n==1} ? 'active'"><i class="home icon"></i>首页</a>
             <a href="#" th:href="@{/types/-1}" class="ui circular icon button m-opacity-small m-item item m-mobile-hide m-index-btn" th:classappend="${n==2} ? 'active'"><i class="clone outline icon"></i>分类</a>
@@ -212,8 +207,8 @@
                 <!--</div>-->
                 <!--</div>-->
                 <div class="ui inverted link list">
-                    <div href="#" class="m-text-thin">Email：onestarlr@hotmail.com</div>
-                    <div href="#" class="m-text-thin">QQ：316392836</div>
+                    <div href="#" class="m-text-thin">Email：1796626667@qq.com</div>
+                    <div href="#" class="m-text-thin">QQ：1796626667</div>
                 </div>
             </div>
 
@@ -221,7 +216,7 @@
                 <div class="ui inverted link list">
                     <div class="item">
                         <!--微信二维码-->
-                        <div style="font-size: large;font-weight: bold" class="ui inverted m-text-thin m-text-spaced " >关注公众号</div>
+                        <div style="font-size: large;font-weight: bold" class="ui inverted m-text-thin m-text-spaced " >微信号</div>
                         <img src="../static/images/oneStar.jpg" th:src="@{/images/oneStar.jpg}"  class="ui m-margin-top rounded image" alt="" style="width: 110px">
                     </div>
                 </div>
@@ -308,7 +303,7 @@
     }
     function setTime() {
         /*此处为网站的创建时间*/
-        var create_time = Math.round(new Date(Date.UTC(2020, 01, 25, 15, 15, 15)).getTime() / 1000);
+        var create_time = Math.round(new Date(Date.UTC(2020, 07, 06, 06, 06, 06)).getTime() / 1000);
         var timestamp = Math.round((new Date().getTime() + 8 * 60 * 60 * 1000) / 1000);
         currentTime = secondToDate((timestamp - create_time));
         currentTimeHtml = currentTime[0] + '年' + currentTime[1] + '天'
