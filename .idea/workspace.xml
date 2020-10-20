@@ -2,28 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d752853-1523-4541-bcfe-e99882f81990" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/banner.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/blog-pro.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/blog-pro.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/TypeDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/TypeDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/QQ-question.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/QQ-question.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/aboutbg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/aboutbg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/avatar.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/avatar.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/backimg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/backimg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/backimg1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/backimg1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/bg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/friendsbg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/me.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/me.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/messagebg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/messagebg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/music.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/music.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/oneStar.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/oneStar.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/oneStar1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/oneStar1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/oneStarWechat.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/oneStarWechat.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/picturebg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/qq.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/qq.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/typebg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/typebg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/wechatpay.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/wechatpay.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/zhifupay.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/zhifupay.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/blogs-input.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/blogs-input.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/blogs.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/blogs.html" afterDir="false" />
@@ -34,40 +14,9 @@
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/blog.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/message.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/message.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/music.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/music.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/search.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/types.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/types.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/QQ-question.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/QQ-question.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/aboutbg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/aboutbg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/avatar.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/avatar.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/backimg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/backimg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/backimg1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/backimg1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/bg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/friendsbg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/me.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/me.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/messagebg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/messagebg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/music.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/music.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/oneStar.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/oneStar.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/oneStar1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/oneStar1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/oneStarWechat.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/oneStarWechat.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/picturebg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/qq.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/qq.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/typebg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/typebg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/wechatpay.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/wechatpay.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/zhifupay.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/zhifupay.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/admin/blogs-input.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin/blogs-input.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/admin/blogs.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin/blogs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/admin/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/admin/types-input.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin/types-input.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/admin/types.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin/types.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/archives.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/archives.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/blog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/message.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/message.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/music.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/music.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/search.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/types.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/types.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/TypeDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/TypeDao.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -84,32 +33,111 @@
     <favorites_list name="myblog" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/blogs-input.html">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/types.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-5561">
-              <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+            <state relative-caret-position="120">
+              <caret line="153" column="118" selection-start-line="153" selection-start-column="118" selection-end-line="153" selection-end-column="118" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/blogs.html">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-5441">
-              <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+            <state relative-caret-position="160">
+              <caret line="158" column="63" selection-start-line="158" selection-start-column="63" selection-end-line="158" selection-end-column="63" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/types-input.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="185" column="63" selection-start-line="185" selection-start-column="63" selection-end-line="185" selection-end-column="63" />
+              <folding>
+                <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/about.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="261" column="63" selection-start-line="261" selection-start-column="63" selection-end-line="261" selection-end-column="63" />
+              <folding>
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h2#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/archives.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="265">
+              <caret line="182" column="65" selection-start-line="182" selection-start-column="65" selection-end-line="182" selection-end-column="65" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/blog.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-130">
+              <caret line="721" column="63" selection-start-line="721" selection-start-column="63" selection-end-line="721" selection-end-column="63" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1180">
+              <caret line="235" column="126" selection-start-line="235" selection-start-column="126" selection-end-line="235" selection-end-column="126" />
+              <folding>
+                <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/message.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="207" column="126" selection-start-line="207" selection-start-column="126" selection-end-line="207" selection-end-column="126" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/search.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="227">
+              <caret line="230" column="65" selection-start-line="230" selection-start-column="65" selection-end-line="230" selection-end-column="65" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/blog.html">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/types.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="490" lean-forward="true" selection-start-line="490" selection-end-line="490" />
+            <state relative-caret-position="-253">
+              <caret line="241" column="63" selection-start-line="241" selection-start-column="63" selection-end-line="241" selection-end-column="63" />
               <folding>
-                <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -174,22 +202,22 @@
         <option value="$PROJECT_DIR$/src/main/java/com/xw/aspect/LogAspect.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/banner.txt" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/archives.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/admin/types-input.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/music.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xw/service/Impl/MessageServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/TypeDao.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/BlogDao.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/index.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/admin/blogs.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/admin/blogs-input.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/admin/index.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/admin/types.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/index.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/admin/types-input.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/about.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/archives.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/blog.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/message.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/search.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/types.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/music.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/about.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/xw/service/Impl/MessageServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapper/TypeDao.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapper/BlogDao.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/blog.html" />
       </list>
     </option>
   </component>
@@ -239,7 +267,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -379,6 +406,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -496,7 +524,8 @@
       <workItem from="1602650734260" duration="13000" />
       <workItem from="1602941143477" duration="1462000" />
       <workItem from="1602987476665" duration="371000" />
-      <workItem from="1602987880728" duration="34110000" />
+      <workItem from="1602987880728" duration="34962000" />
+      <workItem from="1603182823899" duration="1246000" />
     </task>
     <task id="LOCAL-00001" summary="''">
       <created>1601287348440</created>
@@ -519,16 +548,24 @@
       <option name="project" value="LOCAL" />
       <updated>1601967213616</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="''">
+      <created>1603082745868</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1603082745869</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61120000" />
+    <option name="totallyTimeSpent" value="63218000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49863762" visible="true" weight="0.2419571" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49863762" visible="true" weight="0.24530831" />
       <window_info id="Structure" order="1" sideWeight="0.5013624" side_tool="true" weight="0.19225037" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -608,19 +645,8 @@
     <option name="LAST_COMMIT_MESSAGE" value="''" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/banner.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="39" column="34" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/friendsbg.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/picturebg.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/friendsbg.jpg" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/picturebg.jpg" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/oneStarWechat.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -639,108 +665,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/404.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/backimg1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/bg.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/backimg.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/login.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/types.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/types-input.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="23" column="23" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="23" />
-          <folding>
-            <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/typebg.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/music.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/aboutbg.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/archives.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1600">
-          <caret line="80" column="45" selection-start-line="80" selection-start-column="45" selection-end-line="82" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="78" column="52" selection-start-line="78" selection-start-column="52" selection-end-line="78" selection-end-column="52" />
-          <folding>
-            <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/search.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="47" column="82" selection-start-line="47" selection-start-column="82" selection-end-line="47" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/types.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="48" column="28" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
-          <folding>
-            <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/music.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="54" column="99" selection-start-line="54" selection-start-column="99" selection-end-line="54" selection-end-column="99" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/oneStar1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/oneStar.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/favicon.ico">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/avatar.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/avatar.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xw/entity/Comment.java">
@@ -781,20 +706,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/messagebg.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="80" column="36" lean-forward="true" selection-start-line="80" selection-start-column="36" selection-end-line="80" selection-end-column="36" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h2#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xw/service/MessageService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -806,13 +717,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-697">
           <caret line="39" column="20" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/message.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1">
-          <caret line="350" column="50" lean-forward="true" selection-start-line="350" selection-start-column="50" selection-end-line="350" selection-end-column="50" />
         </state>
       </provider>
     </entry>
@@ -872,26 +776,150 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/blogs-input.html">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/avatar.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/backimg.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/backimg1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/bg.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/favicon.ico">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/me.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/messagebg.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/music.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/oneStar.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/oneStar1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/aboutbg.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5561">
-          <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+        <state relative-caret-position="-180" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/music.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-14413">
+          <caret line="54" column="99" selection-start-line="54" selection-start-column="99" selection-end-line="54" selection-end-column="99" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/blogs.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5441">
-          <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+        <state relative-caret-position="187">
+          <caret line="200" column="120" selection-start-line="200" selection-start-column="120" selection-end-line="200" selection-end-column="120" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/blogs-input.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="258" column="63" selection-start-line="258" selection-start-column="63" selection-end-line="258" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="158" column="63" selection-start-line="158" selection-start-column="63" selection-end-line="158" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/types.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="153" column="118" selection-start-line="153" selection-start-column="118" selection-end-line="153" selection-end-column="118" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/types-input.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="185" column="63" selection-start-line="185" selection-start-column="63" selection-end-line="185" selection-end-column="63" />
+          <folding>
+            <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="261" column="63" selection-start-line="261" selection-start-column="63" selection-end-line="261" selection-end-column="63" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/archives.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="182" column="65" selection-start-line="182" selection-start-column="65" selection-end-line="182" selection-end-column="65" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/blog.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="490" lean-forward="true" selection-start-line="490" selection-end-line="490" />
+        <state relative-caret-position="-130">
+          <caret line="721" column="63" selection-start-line="721" selection-start-column="63" selection-end-line="721" selection-end-column="63" />
           <folding>
             <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1180">
+          <caret line="235" column="126" selection-start-line="235" selection-start-column="126" selection-end-line="235" selection-end-column="126" />
+          <folding>
+            <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/message.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="207" column="126" selection-start-line="207" selection-start-column="126" selection-end-line="207" selection-end-column="126" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/search.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="230" column="65" selection-start-line="230" selection-start-column="65" selection-end-line="230" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/types.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-253">
+          <caret line="241" column="63" selection-start-line="241" selection-start-column="63" selection-end-line="241" selection-end-column="63" />
+          <folding>
+            <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

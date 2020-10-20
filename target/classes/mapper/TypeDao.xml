@@ -46,7 +46,7 @@
     </update>
 
     <!--删除分类-->
-    <delete id="deleteType" >
+    <delete id="deleteType" parameterType="com.xw.entity.Type">
         delete from blog.t_type where id = #{id}
     </delete>
 
