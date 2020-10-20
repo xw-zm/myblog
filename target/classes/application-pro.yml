@@ -1,3 +1,11 @@
+server:
+  port: 443
+  ssl:
+    key-store: classpath:myWeb.jks
+    key-store-password: xtv0yEB9
+    key-store-type: JKS
+    key-alias: alias
+
 spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
