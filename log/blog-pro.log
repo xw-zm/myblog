@@ -1,81 +1,24 @@
-2020-10-20 17:42:21.667  INFO 20404 --- [restartedMain] com.xw.MyblogApplication                 : Starting MyblogApplication on zys with PID 20404 (C:\Users\ideaiU\work\myblog\target\classes started by Administrator in C:\Users\ideaiU\work\myblog)
-2020-10-20 17:42:21.674  INFO 20404 --- [restartedMain] com.xw.MyblogApplication                 : The following profiles are active: pro
-2020-10-20 17:42:25.475  INFO 20404 --- [restartedMain] com.xw.MyblogApplication                 : Started MyblogApplication in 4.687 seconds (JVM running for 6.288)
-2020-10-20 17:42:33.546  INFO 20404 --- [http-nio-8080-exec-4] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.IndexController.index', args=[{}, 1, {}]}
-2020-10-20 17:42:34.178  INFO 20404 --- [http-nio-8080-exec-4] com.xw.aspect.LogAspect                  : Result : index
-2020-10-20 17:42:35.885  INFO 20404 --- [http-nio-8080-exec-3] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.IndexController.blogMessage', args=[{}]}
-2020-10-20 17:42:35.893  INFO 20404 --- [http-nio-8080-exec-3] com.xw.aspect.LogAspect                  : Result : index :: blogMessage
-2020-10-20 17:44:16.861  INFO 22060 --- [restartedMain] com.xw.MyblogApplication                 : Starting MyblogApplication on zys with PID 22060 (C:\Users\ideaiU\work\myblog\target\classes started by Administrator in C:\Users\ideaiU\work\myblog)
-2020-10-20 17:44:16.864  INFO 22060 --- [restartedMain] com.xw.MyblogApplication                 : The following profiles are active: pro
-2020-10-20 17:44:20.318  INFO 22060 --- [restartedMain] com.xw.MyblogApplication                 : Started MyblogApplication in 4.159 seconds (JVM running for 5.317)
-2020-10-20 17:44:33.314  INFO 19612 --- [restartedMain] com.xw.MyblogApplication                 : Starting MyblogApplication on zys with PID 19612 (C:\Users\ideaiU\work\myblog\target\classes started by Administrator in C:\Users\ideaiU\work\myblog)
-2020-10-20 17:44:33.317  INFO 19612 --- [restartedMain] com.xw.MyblogApplication                 : The following profiles are active: pro
-2020-10-20 17:44:36.383  INFO 19612 --- [restartedMain] com.xw.MyblogApplication                 : Started MyblogApplication in 3.772 seconds (JVM running for 5.001)
-2020-10-20 17:44:46.061  INFO 19612 --- [http-nio-8080-exec-1] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.IndexController.index', args=[{}, 1, {}]}
-2020-10-20 17:44:46.364  INFO 19612 --- [http-nio-8080-exec-1] com.xw.aspect.LogAspect                  : Result : index
-2020-10-20 17:44:46.959  INFO 19612 --- [http-nio-8080-exec-3] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.IndexController.blogMessage', args=[{}]}
-2020-10-20 17:44:46.970  INFO 19612 --- [http-nio-8080-exec-3] com.xw.aspect.LogAspect                  : Result : index :: blogMessage
-2020-10-20 17:50:04.399  INFO 3604 --- [restartedMain] com.xw.MyblogApplication                 : Starting MyblogApplication on zys with PID 3604 (C:\Users\ideaiU\work\myblog\target\classes started by Administrator in C:\Users\ideaiU\work\myblog)
-2020-10-20 17:50:04.402  INFO 3604 --- [restartedMain] com.xw.MyblogApplication                 : The following profiles are active: pro
-2020-10-20 17:50:07.507  INFO 3604 --- [restartedMain] com.xw.MyblogApplication                 : Started MyblogApplication in 3.859 seconds (JVM running for 4.916)
-2020-10-20 17:50:22.283  INFO 3604 --- [http-nio-8080-exec-1] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.IndexController.index', args=[{}, 1, {}]}
-2020-10-20 17:50:22.549  INFO 3604 --- [http-nio-8080-exec-1] com.xw.aspect.LogAspect                  : Result : index
-2020-10-20 17:50:23.153  INFO 3604 --- [http-nio-8080-exec-4] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.IndexController.blogMessage', args=[{}]}
-2020-10-20 17:50:23.160  INFO 3604 --- [http-nio-8080-exec-4] com.xw.aspect.LogAspect                  : Result : index :: blogMessage
-2020-10-20 17:50:29.996  INFO 3604 --- [http-nio-8080-exec-5] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.TypeShowController.types', args=[1, -1, {}]}
-2020-10-20 17:50:30.014  INFO 3604 --- [http-nio-8080-exec-5] com.xw.aspect.LogAspect                  : Result : types
-2020-10-20 17:50:30.203  INFO 3604 --- [http-nio-8080-exec-10] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.IndexController.blogMessage', args=[{}]}
-2020-10-20 17:50:30.208  INFO 3604 --- [http-nio-8080-exec-10] com.xw.aspect.LogAspect                  : Result : index :: blogMessage
-2020-10-20 17:50:36.554  INFO 3604 --- [http-nio-8080-exec-9] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.ArchiveShowController.archive', args=[{}]}
-2020-10-20 17:50:36.566  INFO 3604 --- [http-nio-8080-exec-9] com.xw.aspect.LogAspect                  : Result : archives
-2020-10-20 17:50:36.645  INFO 3604 --- [http-nio-8080-exec-1] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.IndexController.blogMessage', args=[{}]}
-2020-10-20 17:50:36.649  INFO 3604 --- [http-nio-8080-exec-1] com.xw.aspect.LogAspect                  : Result : index :: blogMessage
-2020-10-20 17:50:41.255  INFO 3604 --- [http-nio-8080-exec-4] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.TypeShowController.types', args=[1, -1, {}]}
-2020-10-20 17:50:41.260  INFO 3604 --- [http-nio-8080-exec-4] com.xw.aspect.LogAspect                  : Result : types
-2020-10-20 17:50:41.395  INFO 3604 --- [http-nio-8080-exec-1] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.IndexController.blogMessage', args=[{}]}
-2020-10-20 17:50:41.403  INFO 3604 --- [http-nio-8080-exec-1] com.xw.aspect.LogAspect                  : Result : index :: blogMessage
-2020-10-20 17:50:44.527  INFO 3604 --- [http-nio-8080-exec-2] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/message', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.MessageController.message', args=[]}
-2020-10-20 17:50:44.532  INFO 3604 --- [http-nio-8080-exec-2] com.xw.aspect.LogAspect                  : Result : message
-2020-10-20 17:50:44.677  INFO 3604 --- [http-nio-8080-exec-10] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.IndexController.blogMessage', args=[{}]}
-2020-10-20 17:50:44.680  INFO 3604 --- [http-nio-8080-exec-10] com.xw.aspect.LogAspect                  : Result : index :: blogMessage
-2020-10-20 17:50:44.726  INFO 3604 --- [http-nio-8080-exec-7] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/messagecomment', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.MessageController.messages', args=[{}]}
-2020-10-20 17:50:44.744  INFO 3604 --- [http-nio-8080-exec-7] com.xw.aspect.LogAspect                  : Result : message::messageList
-2020-10-20 17:50:49.357  INFO 3604 --- [http-nio-8080-exec-3] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/about', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.AboutShowController.about', args=[]}
-2020-10-20 17:50:49.361  INFO 3604 --- [http-nio-8080-exec-3] com.xw.aspect.LogAspect                  : Result : about
-2020-10-20 17:50:49.677  INFO 3604 --- [http-nio-8080-exec-2] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.IndexController.blogMessage', args=[{}]}
-2020-10-20 17:50:49.685  INFO 3604 --- [http-nio-8080-exec-2] com.xw.aspect.LogAspect                  : Result : index :: blogMessage
-2020-10-20 17:51:10.413  INFO 3604 --- [http-nio-8080-exec-8] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/search', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.IndexController.search', args=[{}, 1, 1]}
-2020-10-20 17:51:10.574  INFO 3604 --- [http-nio-8080-exec-8] com.xw.aspect.LogAspect                  : Result : search
-2020-10-20 17:51:10.697  INFO 3604 --- [http-nio-8080-exec-1] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.IndexController.blogMessage', args=[{}]}
-2020-10-20 17:51:10.700  INFO 3604 --- [http-nio-8080-exec-1] com.xw.aspect.LogAspect                  : Result : index :: blogMessage
-2020-10-20 17:51:18.111  INFO 3604 --- [http-nio-8080-exec-5] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/about', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.AboutShowController.about', args=[]}
-2020-10-20 17:51:18.113  INFO 3604 --- [http-nio-8080-exec-5] com.xw.aspect.LogAspect                  : Result : about
-2020-10-20 17:51:18.227  INFO 3604 --- [http-nio-8080-exec-5] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.IndexController.blogMessage', args=[{}]}
-2020-10-20 17:51:18.233  INFO 3604 --- [http-nio-8080-exec-5] com.xw.aspect.LogAspect                  : Result : index :: blogMessage
-2020-10-20 17:51:21.426  INFO 3604 --- [http-nio-8080-exec-3] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.IndexController.index', args=[{}, 1, {}]}
-2020-10-20 17:51:21.435  INFO 3604 --- [http-nio-8080-exec-3] com.xw.aspect.LogAspect                  : Result : index
-2020-10-20 17:51:24.788  INFO 3604 --- [http-nio-8080-exec-1] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.IndexController.blogMessage', args=[{}]}
-2020-10-20 17:51:24.791  INFO 3604 --- [http-nio-8080-exec-1] com.xw.aspect.LogAspect                  : Result : index :: blogMessage
-2020-10-20 17:51:28.892  INFO 3604 --- [http-nio-8080-exec-9] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.IndexController.blogMessage', args=[{}]}
-2020-10-20 17:51:28.895  INFO 3604 --- [http-nio-8080-exec-9] com.xw.aspect.LogAspect                  : Result : index :: blogMessage
-2020-10-20 17:51:32.779  INFO 3604 --- [http-nio-8080-exec-2] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.IndexController.blogMessage', args=[{}]}
-2020-10-20 17:51:32.785  INFO 3604 --- [http-nio-8080-exec-2] com.xw.aspect.LogAspect                  : Result : index :: blogMessage
-2020-10-20 17:52:46.727  INFO 21240 --- [main] com.xw.MyblogApplicationTests            : Starting MyblogApplicationTests on zys with PID 21240 (started by Administrator in C:\Users\ideaiU\work\myblog)
-2020-10-20 17:52:46.729  INFO 21240 --- [main] com.xw.MyblogApplicationTests            : The following profiles are active: pro
-2020-10-20 17:52:50.936  INFO 21240 --- [main] com.xw.MyblogApplicationTests            : Started MyblogApplicationTests in 4.818 seconds (JVM running for 6.051)
-2020-10-20 17:55:17.073  INFO 4756 --- [main] com.xw.MyblogApplicationTests            : Starting MyblogApplicationTests on zys with PID 4756 (started by Administrator in C:\Users\ideaiU\work\myblog)
-2020-10-20 17:55:17.076  INFO 4756 --- [main] com.xw.MyblogApplicationTests            : The following profiles are active: pro
-2020-10-20 17:55:21.155  INFO 4756 --- [main] com.xw.MyblogApplicationTests            : Started MyblogApplicationTests in 4.696 seconds (JVM running for 5.788)
-2020-10-20 17:55:41.396  INFO 11196 --- [main] com.xw.MyblogApplication                 : Starting MyblogApplication v0.0.1-SNAPSHOT on zys with PID 11196 (C:\Users\ideaiU\work\myblog\target\myblog-0.0.1-SNAPSHOT.jar started by Administrator in C:\Users\ideaiU\work\myblog)
-2020-10-20 17:55:41.400  INFO 11196 --- [main] com.xw.MyblogApplication                 : The following profiles are active: pro
-2020-10-20 17:55:45.449  INFO 11196 --- [main] com.xw.MyblogApplication                 : Started MyblogApplication in 4.684 seconds (JVM running for 5.311)
-2020-10-20 18:06:12.595  INFO 11196 --- [http-nio-8080-exec-1] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.IndexController.index', args=[{}, 1, {}]}
-2020-10-20 18:06:13.023  INFO 11196 --- [http-nio-8080-exec-1] com.xw.aspect.LogAspect                  : Result : index
-2020-10-20 18:06:13.877  INFO 11196 --- [http-nio-8080-exec-1] com.xw.aspect.LogAspect                  : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.xw.controller.IndexController.blogMessage', args=[{}]}
-2020-10-20 18:06:13.884  INFO 11196 --- [http-nio-8080-exec-1] com.xw.aspect.LogAspect                  : Result : index :: blogMessage
-2020-10-20 18:53:11.252  INFO 4152 --- [main] com.xw.MyblogApplicationTests            : Starting MyblogApplicationTests on zys with PID 4152 (started by Administrator in C:\Users\ideaiU\work\myblog)
-2020-10-20 18:53:11.255  INFO 4152 --- [main] com.xw.MyblogApplicationTests            : The following profiles are active: pro
-2020-10-20 18:53:17.050  INFO 4152 --- [main] com.xw.MyblogApplicationTests            : Started MyblogApplicationTests in 6.586 seconds (JVM running for 7.925)
-2020-10-20 18:53:39.249  INFO 5116 --- [main] com.xw.MyblogApplication                 : Starting MyblogApplication v0.0.1-SNAPSHOT on zys with PID 5116 (C:\Users\ideaiU\work\myblog\target\myblog-0.0.1-SNAPSHOT.jar started by Administrator in C:\Users\ideaiU\work\myblog)
-2020-10-20 18:53:39.253  INFO 5116 --- [main] com.xw.MyblogApplication                 : The following profiles are active: pro
-2020-10-20 18:53:44.764  INFO 5116 --- [main] com.xw.MyblogApplication                 : Started MyblogApplication in 6.265 seconds (JVM running for 6.85)
+2020-10-21 09:26:09.813  INFO 17768 --- [main] com.xw.MyblogApplicationTests            : Starting MyblogApplicationTests on zys with PID 17768 (started by Administrator in C:\Users\ideaiU\work\myblog)
+2020-10-21 09:26:09.820  INFO 17768 --- [main] com.xw.MyblogApplicationTests            : The following profiles are active: pro
+2020-10-21 09:26:18.870  INFO 17768 --- [main] com.xw.MyblogApplicationTests            : Started MyblogApplicationTests in 10.087 seconds (JVM running for 11.349)
+2020-10-21 09:26:31.952  INFO 18124 --- [main] com.xw.MyblogApplicationTests            : Starting MyblogApplicationTests on zys with PID 18124 (started by Administrator in C:\Users\ideaiU\work\myblog)
+2020-10-21 09:26:31.954  INFO 18124 --- [main] com.xw.MyblogApplicationTests            : The following profiles are active: pro
+2020-10-21 09:26:36.692  INFO 18124 --- [main] com.xw.MyblogApplicationTests            : Started MyblogApplicationTests in 5.435 seconds (JVM running for 6.678)
+2020-10-21 09:29:03.414  INFO 20060 --- [main] com.xw.MyblogApplication                 : Starting MyblogApplication v0.0.1-SNAPSHOT on zys with PID 20060 (C:\Users\ideaiU\work\myblog\target\myblog-0.0.1-SNAPSHOT.jar started by Administrator in C:\Users\ideaiU\work\myblog)
+2020-10-21 09:29:03.419  INFO 20060 --- [main] com.xw.MyblogApplication                 : The following profiles are active: pro
+2020-10-21 09:29:07.849  INFO 20060 --- [main] com.xw.MyblogApplication                 : Started MyblogApplication in 5.063 seconds (JVM running for 5.599)
+2020-10-21 09:30:53.347  INFO 16728 --- [main] com.xw.MyblogApplicationTests            : Starting MyblogApplicationTests on zys with PID 16728 (started by Administrator in C:\Users\ideaiU\work\myblog)
+2020-10-21 09:30:53.348  INFO 16728 --- [main] com.xw.MyblogApplicationTests            : The following profiles are active: pro
+2020-10-21 09:30:57.744  INFO 16728 --- [main] com.xw.MyblogApplicationTests            : Started MyblogApplicationTests in 4.998 seconds (JVM running for 6.26)
+2020-10-21 09:33:07.757  INFO 22020 --- [main] com.xw.MyblogApplicationTests            : Starting MyblogApplicationTests on zys with PID 22020 (started by Administrator in C:\Users\ideaiU\work\myblog)
+2020-10-21 09:33:07.759  INFO 22020 --- [main] com.xw.MyblogApplicationTests            : The following profiles are active: pro
+2020-10-21 09:33:12.158  INFO 22020 --- [main] com.xw.MyblogApplicationTests            : Started MyblogApplicationTests in 5.02 seconds (JVM running for 6.244)
+2020-10-21 09:33:45.777  INFO 24176 --- [main] com.xw.MyblogApplication                 : Starting MyblogApplication v0.0.1-SNAPSHOT on zys with PID 24176 (C:\Users\ideaiU\work\myblog\target\myblog-0.0.1-SNAPSHOT.jar started by Administrator in C:\Users\ideaiU\work\myblog)
+2020-10-21 09:33:45.781  INFO 24176 --- [main] com.xw.MyblogApplication                 : The following profiles are active: pro
+2020-10-21 09:33:50.674  INFO 24176 --- [main] com.xw.MyblogApplication                 : Started MyblogApplication in 5.579 seconds (JVM running for 6.121)
+2020-10-21 15:33:52.282  INFO 25476 --- [main] com.xw.MyblogApplicationTests            : Starting MyblogApplicationTests on zys with PID 25476 (started by Administrator in C:\Users\ideaiU\work\myblog)
+2020-10-21 15:33:52.284  INFO 25476 --- [main] com.xw.MyblogApplicationTests            : The following profiles are active: pro
+2020-10-21 15:33:56.604  INFO 25476 --- [main] com.xw.MyblogApplicationTests            : Started MyblogApplicationTests in 4.98 seconds (JVM running for 6.295)
+2020-10-21 15:34:21.397  INFO 23808 --- [main] com.xw.MyblogApplication                 : Starting MyblogApplication v0.0.1-SNAPSHOT on zys with PID 23808 (C:\Users\ideaiU\work\myblog\target\myblog-0.0.1-SNAPSHOT.jar started by Administrator in C:\Users\ideaiU\work\myblog)
+2020-10-21 15:34:21.420  INFO 23808 --- [main] com.xw.MyblogApplication                 : The following profiles are active: pro
+2020-10-21 15:34:26.675  INFO 23808 --- [main] com.xw.MyblogApplication                 : Started MyblogApplication in 6.079 seconds (JVM running for 6.676)
